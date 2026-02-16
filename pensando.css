@@ -1,0 +1,149 @@
+body{
+    margin:0;
+    background:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* contenedor ajustar porcentaje */
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:25px;
+    gap:20px;
+    margin-right: 13%;
+}
+
+.post-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    background:white; 
+    padding:12px 15px;
+    border-radius:15px;
+
+    width:600px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.1);
+}
+
+.post-avatar{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.post-input{
+    flex:1;
+    border:none;
+    outline:none;
+
+    background:#f0f2f5;
+    padding:10px 15px;
+    border-radius:20px;
+
+    font-size:14px;
+}
+
+.post-input::placeholder{
+    color:#65676b;
+}
+
+.post-input:hover{
+    background:#e4e6eb;
+}
+
+.post-icons{
+    display:flex;
+    gap:15px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/* seccion de historias recordar propiedades abajo */
+
+
+.stories{
+    display:flex;
+    gap:15px;
+    width:600px;
+    overflow-x:auto;
+}
+
+.story{
+    position:relative;
+    width:110px;
+    height:200px;
+    border-radius:15px;
+    overflow:hidden;
+    cursor:pointer;
+    background:white;
+    box-shadow:0 1px 3px rgba(0,0,0,0.1);
+}
+
+.story img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.story p{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color:white;
+    font-size:13px;
+    font-weight:bold;
+    text-shadow:0 0 5px rgba(0,0,0,0.7);
+}
+
+/* circulo */
+.story-profile{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    border:3px solid #1877f2;
+    background:white;
+}
+
+
+.create-story img{
+    height:130px;
+}
+
+.create-story{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    background:white;
+}
+
+.create-btn{
+    position:absolute;
+    top:110px;
+    width:40px;
+    height:40px;
+    background:#1877f2;
+    color:white;
+    font-size:25px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:4px solid white;
+}
+
+.create-story p{
+    position:static;
+    margin-top:45px;
+    color:black;
+    text-shadow:none;
+    font-size:13px;
+}
+
+
