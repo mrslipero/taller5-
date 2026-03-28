@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Facebook</title>
+<title>Facebook Clone</title>
 
 <link rel="stylesheet" href="estilos.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Profusely+Yours&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header class="box-titulo">
 
 <div class="left">
@@ -23,34 +19,19 @@
 </div>
 
 <div class="center">
-
-<button class="boton">
-<img src="logoc-Photoroom.png" class="img-home">
-</button>
-
-<button class="boton">
-<img src="logo1.png" class="img-video">
-</button>
-
-<button class="boton">
-<img src="marketplace.png" class="market">
-</button>
-
-<button class="boton">
-<img src="grupo-Photoroom.png" class="grupo">
-</button>
-
-<button class="boton">
-<img src="juego.png" class="juego">
-</button>
-
+<button class="boton"><img src="logoc-Photoroom.png" class="img-home"></button>
+<button class="boton"><img src="logo1.png" class="img-video"></button>
+<button class="boton"><img src="marketplace.png" class="market"></button>
+<button class="boton"><img src="grupo-Photoroom.png" class="grupo"></button>
+<button class="boton"><img src="juego.png" class="juego"></button>
 </div>
 
 </header>
 
-
+<!-- CONTENIDO -->
 <div class="contenedor">
 
+<!-- SIDEBAR -->
 <aside class="barra">
 
 <div class="perfil">
@@ -58,63 +39,31 @@
 <span>Martinez Sebastian</span>
 </div>
 
-<div class="menu-item">
-<img src="bus.png">
-<span>Meta AI</span>
-</div>
-
-<div class="menu-item">
-<img src="amigos.png">
-<span>Amigos</span>
-</div>
-
-<div class="menu-item">
-<img src="guardar.png">
-<span>Guardado</span>
-</div>
-
-<div class="menu-item">
-<img src="recuerdos.png">
-<span>Recuerdos</span>
-</div>
-
-<div class="menu-item">
-<img src="grupos.png">
-<span>Grupos</span>
-</div>
-
-<div class="menu-item">
-<img src="rells.png">
-<span>Reels</span>
-</div>
-
-<div class="menu-item">
-<img src="market1.png">
-<span>Marketplace</span>
-</div>
+<div class="menu-item"><img src="bus.png"><span>Meta AI</span></div>
+<div class="menu-item"><img src="amigos.png"><span>Amigos</span></div>
+<div class="menu-item"><img src="guardar.png"><span>Guardado</span></div>
+<div class="menu-item"><img src="recuerdos.png"><span>Recuerdos</span></div>
+<div class="menu-item"><img src="grupos.png"><span>Grupos</span></div>
+<div class="menu-item"><img src="rells.png"><span>Reels</span></div>
+<div class="menu-item"><img src="market1.png"><span>Marketplace</span></div>
 
 </aside>
 
-
+<!-- MAIN -->
 <main class="main">
 
+<!-- POST BOX -->
 <div class="post-box">
-
 <img src="gato.jpeg" class="post-avatar">
-
-<input type="text"
-placeholder="¿Qué estás pensando, Sebastian?"
-class="post-input">
-
+<input type="text" placeholder="¿Qué estás pensando, Sebastian?" class="post-input">
 <div class="post-icons">
 <span>📹</span>
 <span>🖼️</span>
 <span>😊</span>
 </div>
-
 </div>
 
-
+<!-- STORIES -->
 <div class="stories">
 
 <div class="story create-story">
@@ -149,8 +98,50 @@ class="post-input">
 
 </div>
 
-</main>
+<!-- FEED -->
+<div class="feed">
 
+<div class="post">
+<div class="post-header">
+<img src="persona1.jpg" class="post-user-img">
+<div>
+<h4>Danaa Hernandez</h4>
+<span>Hace 2 h</span>
+</div>
+</div>
+
+<p class="post-text">Hoy salí a rodar 🏍️🔥</p>
+<img src="moto.jpg" class="post-img">
+
+<div class="post-actions">
+<button>👍 Me gusta</button>
+<button>💬 Comentar</button>
+<button>↗️ Compartir</button>
+</div>
+</div>
+
+<div class="post">
+<div class="post-header">
+<img src="persona2.jpg" class="post-user-img">
+<div>
+<h4>Daniela Caballero</h4>
+<span>Hace 5 h</span>
+</div>
+</div>
+
+<p class="post-text">Día relax 😌</p>
+<img src="persona2.jpg" class="post-img">
+
+<div class="post-actions">
+<button>👍 Me gusta</button>
+<button>💬 Comentar</button>
+<button>↗️ Compartir</button>
+</div>
+</div>
+
+</div>
+
+</main>
 </div>
 
 </body>
